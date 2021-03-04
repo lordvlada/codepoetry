@@ -5,8 +5,9 @@ body {
 }
 .kutija {
     justify-content: flex-start;
-    width: 600px;
+    width: 50%;
     border: 1px dotted green;
+    padding: 3%;
 }
 .slike {
     display: flex;
@@ -21,24 +22,38 @@ h1 {
 }
 p {
     text-align: justify;
-    margin: 10px 15px 30px 15px;
-    padding: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 200;
+    font-weight: 200;margin: 0;
+}
+.prosim {
+   line-height: 20px; 
+}
+.poem p
+    {font-family: monospace;
+    padding-top: 5%;
+    }
+.prsten{
+    padding: 10% 0 10% 0;
+}
+h3 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 img {
     width: 50%;
 }
-.cudlicky {
-    display: flex;
-    justify-content: space-around;
-    margin: 8px;
+.cudlicky a {
+    width: 50%;
+
 }
 button {
     background-color: #9adb9c; /* Green */
     border: none;
     color: white;
-    padding: 15px 128px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -52,6 +67,7 @@ background-color: #2edb34;
 .cudlicky {
 display: flex;
 justify-content: space-around;
+
 }
 .hvr-shutter-out-horizontal {
 display: inline-block;
